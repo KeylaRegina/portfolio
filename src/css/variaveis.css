@@ -1,7 +1,7 @@
 :root {
     --cor-primaria: #8936e7e5;
     --cor-secundaria: #c796f0;    
-    --cor-branca: #fff;
+    --cor-branca: #e09acf;
     --cor-fundo-escuro: #040203;    
     --cor-fundo-cinza-escuro: #282828;
     --cor-fundo-cinza-claro: #353535;    
@@ -14,7 +14,13 @@
     --fonte-extra-grande: 3rem;
     --fonte-grande: 2.4rem;
     --fonte-normal: 1.6rem;
+  }html {
+    font-size: 62.5%;
+    color: var(--cor-branca);
+    font-weight: 300;
+    scroll-behavior: smooth;
   }
+  
   
   :root {
     --mobile-padding: 30px;
